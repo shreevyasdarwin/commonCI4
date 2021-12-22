@@ -148,6 +148,7 @@ class Admin_Model extends Model
             }
             $rows++;
         } 
+        
         $writer = new Xlsx($spreadsheet);
 
         header('Content-Type: application/vnd.ms-excel');
